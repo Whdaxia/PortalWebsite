@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+body,ul,ol,li,h2,h3,p,hr,figure,figcaption{
+    padding:0;
+    margin:0;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei UI","Microsoft YaHei",SimHei,"宋体",simsun,sans-serif;
+}
+ol,ul,li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+input {
+    border:0;
+    padding:0;
+    margin:0;
+}
+
+.item {
+    padding:0;
+    margin:0;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    min-width: 1263px;
+    background-color: #333;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+
+.header .nav {
+    margin: 0 auto;
+    height: 70px;
+    width: 1263px;
+    background-color: #333;
+}
+
+.header .logo {
+    float: left;
+}
+
+.header .nav_item {
+    float: right;
+}
+
+.header .nav_item ul {
+    width: 800px;
+    line-height: 70px;
+    float: right;
+    text-align: center;
+}
+
+.header .nav_item li {
+    float: left;
+    width: 140px;
+}
+
+.header .nav_item li a {
+    display: block;
+    color: #eee;
+}
+
+.header .nav_item li a:hover,.active {
+    background: #000;
+}
+
+.footer {
+    height:361px;
+    background: #222;
+    /*background-color: antiquewhite;*/
+    clear: both;
+}
+
+.footer .top {
+    width: 1263px;
+    margin: 0 auto;
+}
+
+.footer .top .block {
+    display: inline-block;
+    width: 410px;
+    height: 280px;
+    text-align: left;
+    vertical-align: top;
+    color: #ccc;
+}
+
+.footer .block h3 {
+    font-weight: normal;
+    font-size: 24px;
+    margin:20px 0 10px 0;
+}
+
+.footer .block hr {
+    border:1px dashed #333;
+    width:90%;
+}
+
+.footer .block ul {
+    font-size: 18px;
+    line-height: 2.2;
+    color:#777;
+}
+
+.footer .bottom {
+    height:60px;
+    background: #000;
+    color:#fff;
+    text-align: center;
+    line-height:60px;
+    border-top:1px solid #444;
+}

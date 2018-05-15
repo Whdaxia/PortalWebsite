@@ -1,0 +1,204 @@
+﻿@{
+    ViewBag.Title = "旅游网站";
+}
+
+<head>
+    <meta charset="UTF-8">
+    <title>关于我们--旅游网站</title>
+    <link rel="stylesheet" href="~/CSS/basic.css">
+    <link rel="stylesheet" href="~/CSS/column.css">
+    <style>
+        .content .lside .about {
+            color: #666;
+        }
+
+        .content .lside h2 {
+            border-bottom: 1px dashed #ccc;
+            font-size: 45px;
+            margin-bottom: 10px;
+            font-weight: normal;
+            padding: 0 0 15px 0;
+        }
+
+        .content .lside .about p {
+            text-indent: 2em;
+            line-height: 2;
+            margin: 20px 0;
+            letter-spacing: 1px;
+        }
+
+        .content .lside .contact {
+            color: #666;
+        }
+
+            .content .lside .contact ul {
+                font-style: normal;
+                line-height: 1.5;
+                font-size: 18px;
+                margin-top: 20px;
+            }
+
+        .about
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 导航栏 -->
+        <div class="header">
+            <div class="nav">
+                <div class="logo">
+                    <img src="./img/logo.png" alt="">
+                </div>
+                <div class="nav_item">
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="informations.html">旅游资讯</a></li>
+                        <li><a href="ticket.html">机票订购</a></li>
+                        <li><a href="scenery.html">风景欣赏</a></li>
+                        <li class="active"><a href="about.html">公司简介</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 旅游资讯 -->
+        <div class="headline">
+            <div class="desc">
+                <div>
+                    <h2>旅游资讯</h2>
+                    <p>介绍各种最新旅游信息、资讯要闻、景点攻略等</p>
+                </div>
+            </div>
+        </div>
+        <!-- 内容 -->
+        <div class="content">
+            <div class="lside">
+                <!-- 关于我们 -->
+                <div class="about">
+                    <h2>关于我们</h2>
+                    <p>雪花旅行社旅游网创立于2006 年10 月，以“让旅游更简单”为使命，为消费者提供由北京、上海、广州、深圳等64 个城市出发的旅游产品预订服务，产品全面，价格透明，全年365 天24 小时400 电话预订，并提供丰富的后续服务和保障。 目前，雪花旅行社旅游网提供8 万余种旅游产品供消费者选择，涵盖跟团、自助、自驾、邮轮、酒店、签证、景区门票以及公司旅游等，已成功服务累计超过400 万人次出游。 同时基于雪花旅行社旅游网全球中文景点目录以及中文旅游社区，可以更好地帮助游客了解目的地信息，妥善制定好出游计划，并方便地预订旅程中的服务项目。</p>
+                </div>
+                <!-- 联系方式 -->
+                <div class="contact">
+                    <h2>联系方式</h2>
+                    <ul>
+                        <li>雪花旅行社股份有限公司</li>
+                        <li>地址：江苏省盐城市亭湖区大庆中路1234 号</li>
+                        <li>邮编：1234567</li>
+                        <li>电话：010-88888888</li>
+                        <li>传真：010-88666666</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rside">
+                <!-- 景点推荐 -->
+                <div class="top">
+                    <div class="title">
+                        <h3>景点推荐</h3>
+                    </div>
+                    <div class="top-item">
+                        <ul>
+                            <li><a href="###">曼谷(12)</a></li>
+                            <li><a href="###">东京(5)</a></li>
+                            <li><a href="###">西双版纳(8)</a></li>
+                            <li><a href="###">漓江(16)</a></li>
+                            <li><a href="###">呼伦贝尔(4)</a></li>
+                            <li><a href="###">首尔(9)</a></li>
+                            <li><a href="###">巴厘岛(15)</a></li>
+                            <li><a href="###">土耳其(22)</a></li>
+                            <li><a href="###">夏威夷(5)</a></li>
+                            <li><a href="###">巴厘岛(11)</a></li>
+                            <li><a href="###">毛里求斯(7)</a></li>
+                            <li><a href="###">吉普岛(4)</a></li>
+                            <li><a href="###">希腊(18)</a></li>
+                            <li><a href="###">法瑞意(8)</a></li>
+                            <li><a href="###">马尔代夫(9)</a></li>
+                            <li><a href="###">新西兰(16)</a></li>
+                            <li><a href="###">埃及(11)</a></li>
+                            <li><a href="###">迪拜(14)</a></li>
+                            <li><a href="###">斯里兰卡(7)</a></li>
+                            <li><a href="###">麦哈顿(3)</a></li>
+                            <li><a href="###">大阪(15)</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 热门旅游 -->
+                <div class="moddle">
+                    <div class="title">
+                        <h3>热门旅游</h3>
+                    </div>
+                    <div class="moddle-item">
+                        <figure>
+                            <img src="./img/hot1.jpg" alt="">
+                            <figcaption>曼谷-芭提雅6日游</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./img/hot2.jpg" alt="">
+                            <figcaption>马尔代夫双鱼6日游</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./img/hot3.jpg" alt="">
+                            <figcaption>海南双飞5日游</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./img/hot4.jpg" alt="">
+                            <figcaption>富山大阪东京8日游</figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+                <!-- 旅游百宝箱 -->
+                <div class="bottom">
+                    <div class="title">
+                        <h3>旅游百宝箱</h3>
+                    </div>
+                    <div class="box">
+                        <ul>
+                            <li><a href="###" class="trea1">天气预报</a></li>
+                            <li><a href="###" class="trea2">火车票查询</a></li>
+                            <li><a href="###" class="trea3">航空查询</a></li>
+                            <li><a href="###" class="trea4">地铁线路查询</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 尾部 -->
+        <div class="footer">
+            <div class="top">
+                <div class="block left">
+                    <h3>合作伙伴</h3>
+                    <hr />
+                    <ul>
+                        <li>途牛旅游网</li>
+                        <li>驴妈妈旅游网</li>
+                        <li>携程旅游</li>
+                        <li>中国去青年旅行社</li>
+                    </ul>
+                </div>
+                <div class="block moddle">
+                    <h3>旅游FAQ</h3>
+                    <hr />
+                    <ul>
+                        <li>旅游合同签订方式？</li>
+                        <li>儿童价是基于什么制定的？</li>
+                        <li>旅游的线路品质怎么界定的？</li>
+                        <li>单房差是什么？</li>
+                        <li>旅游保险有那些种类？</li>
+                    </ul>
+                </div>
+                <div class="block right">
+                    <h3>联系方式</h3>
+                    <hr />
+                    <ul>
+                        <li>微博：weibo.com/xuehua</li>
+                        <li>邮件：xuehua@xuehua.com</li>
+                        <li>地址：江苏盐城无名路123 号</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom">
+                Copyright &copy; XUEHUA 雪花旅行社| 苏ICP 备120110119 号| 旅行社经营许可证：L-YC-BK12345
+            </div>
+        </div>
+    </div>
+</body>

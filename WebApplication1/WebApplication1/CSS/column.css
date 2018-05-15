@@ -1,0 +1,158 @@
+﻿@charset "UTF-8";
+
+.headline {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(to right bottom, rgba(0,0,0,0.7), rgba(0,0,0,0)), url("../Images/headline.jpg") no-repeat center;
+}
+
+.headline .desc {
+    width: 1263px;
+    height: 300px;
+    /*background: #ff6600;*/
+    margin: 0 auto;
+}
+
+.headline .desc div {
+    padding:100px 0 0 150px;
+}
+
+.headline .desc h2 {
+    font-size: 45px;
+    color: #eee;
+    letter-spacing: 1px;
+}
+
+.headline .desc p {
+    font-size: 20px;
+    color: #eee;
+    letter-spacing: 1px;
+}
+
+
+.content {
+    width: 1263px;
+    /*height: 1000px;*/
+    margin: 30px auto;
+    /*background: #ff6600;*/
+    overflow: hidden;
+}
+
+.content .lside {
+    width: 900px;
+    float: left;
+}
+
+.content .rside {
+    width: 340px;
+    /*height: 1000px;*/
+    /*background: aqua;*/
+    float: right;
+    text-align: center;
+}
+
+.content .rside .top {
+    height: 400px;
+    /*background: chartreuse;*/
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content .rside h3 {
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    height: 48px;
+    line-height: 48px;
+    text-align: left;
+    text-indent: 20px;
+    margin-bottom: 5px;
+    background: #fafafa;
+}
+
+.content .rside .top .top-item ul li {
+    display: inline-block;
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    background: #eee;
+    margin: 2px;
+    text-align: center;
+}
+
+.content .rside .top .top-item ul li a {
+    color: #999;
+}
+
+.content .rside .top .top-item ul li a:hover {
+    background: #458b00;
+    display: block;
+    color: #fff;
+}
+
+.content .rside .moddle {
+    height: 370px;
+    /*background: aquamarine;*/
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content .rside .moddle .moddle-item {
+    width: 340px;
+    text-align: center;
+}
+
+.content .rside .moddle .moddle-item figure {
+    display: inline-block;
+    padding: 5px;
+}
+
+.content .rside .moddle .moddle-item figure figcaption {
+    color: #666;
+}
+
+.content .rside .bottom {
+    height: 175px;
+    /*background: antiquewhite;*/
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 1px;
+}
+
+.content .rside .bottom .box {
+    padding: 10px 0;
+}
+
+.content .rside .bottom .box ul li {
+    display: inline-block;
+}
+
+.content .rside .bottom .box ul li a {
+    display: inline-block;
+    text-indent: 10px;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    color: #999;
+    margin: 2px;
+    font-size: 16px;
+}
+
+.content .rside .bottom .trea1 {
+    background: #eee url("../Images/trea1.png") no-repeat 10px center;
+}
+
+.content .rside .bottom .trea2 {
+    background: #eee url("../Images/trea2.png") no-repeat 10px center;
+}
+
+.content .rside .bottom .trea3 {
+    background: #eee url("../Images/trea3.png") no-repeat 10px center;
+}
+
+.content .rside .bottom .trea4 {
+    background: #eee url("../Images/trea4.png") no-repeat 10px center;
+}
